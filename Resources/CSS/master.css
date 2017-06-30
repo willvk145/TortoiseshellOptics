@@ -213,6 +213,10 @@ footer img{
     text-align: center;
   }
 
+  p{
+    padding: 0 .5rem;
+  }
+
   footer span{
     display: none;
   }
