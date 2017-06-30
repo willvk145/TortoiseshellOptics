@@ -1,0 +1,130 @@
+html{
+  font-size: 18px;
+  font-family: helvetica;
+}
+
+.container{
+  width: 960px;
+  margin: auto;
+}
+
+/*CSS for top banner, including background image, header bar, and caption*/
+
+.banner{
+  background-image: url("../glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:31rem;
+  border-top: 0.1px solid white;
+}
+
+header{
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  margin-top: 1rem;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+header img{
+  padding: 0 1rem 0 2rem;
+  width: auto;
+  height: 1.5rem;
+}
+
+
+header .left{
+  display: flex;
+  align-items: center;
+}
+
+header .right{
+  padding: 1rem 0;
+}
+
+.logo{
+  display: inline-block;
+  position: relative;
+  left: 2rem;
+  text-transform: uppercase;
+  float: right;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  background-color: white;
+  margin-top: 10rem;
+}
+
+/*Main content, including icons, philosophy, contact, and footer*/
+
+/*First section, with icons*/
+.flexrow{
+  display: flex;
+  justify-content: center;
+}
+
+#services .flexcol{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 5rem;
+  height: 8rem;
+  padding: 3rem;
+  align-items: center;
+}
+
+#services .flexcol img{
+  width: 100%;
+  height: auto;
+}
+
+#services .flexcol span{
+  text-align: center;
+}
+
+#exam .image img{
+  width: 3.5rem;
+}
+
+/*Second section, philosophy and contact*/
+
+.info{
+  margin-bottom: 5rem;
+}
+
+.info .flexcol{
+  width: 35%;
+  margin: 0 5%;
+}
+
+h3{
+  width: 10rem;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  margin-bottom: 1rem;
+}
+
+/*Footer*/
+
+footer.flexrow{
+  padding: 4rem;
+  justify-content: left;
+  align-items: center;
+}
+
+footer img{
+  display: inline-block;
+  height: 1.5rem;
+  width: auto;
+  padding-right: 1rem;
+}
